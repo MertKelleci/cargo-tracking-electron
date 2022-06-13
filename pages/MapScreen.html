@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Map View</title>
+    <script src="../scripts/MapScreen.js"></script>
+    <link rel="stylesheet" href="../styles/MapScreen.css" />
+  </head>
+  <body>
+    <div id="map"></div>
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDdtJp1AnjixeImIeDrC8Ad0qN4eEOyO6k&callback=initMap&v=weekly"
+      async
+    ></script>
+  </body>
+</html>
